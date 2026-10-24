@@ -7,7 +7,7 @@
 
 ```bash
 scripts/setup.sh                 # один раз
-scripts/make.sh моё-видео.mp4    # -> out/video-9x16.mp4
+scripts/make.sh нейропрофи/моё-видео.mp4  # -> нейропрофи/моё-видео-9x16.mp4
 npm run studio                   # предпросмотр и подстройка
 ```
 
