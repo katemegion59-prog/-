@@ -1,0 +1,26 @@
+{
+  "name": "tiktok-captions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "transcribe": "node scripts/transcribe.mjs",
+    "render": "remotion render TikTok out/video-9x16.mp4 --codec=h264 --crf=18"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.538",
+    "@remotion/cli": "^4.0.538",
+    "@remotion/fonts": "^4.0.538",
+    "@remotion/install-whisper-cpp": "^4.0.538",
+    "@remotion/media": "^4.0.538",
+    "@remotion/media-utils": "^4.0.538",
+    "mediabunny": "^1.62.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

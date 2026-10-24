@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+models/
+out/
+public/input.mp4
+public/captions.json
